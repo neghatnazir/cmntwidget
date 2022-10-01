@@ -1,0 +1,96 @@
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .addCommentbtn {
+    width: 140px;
+  height: 50px;
+  padding: 1rem 22px;
+  font-size: 1.8rem;
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  margin-top: 20px;
+    
+  }
+  .input{
+  width: 480px;
+  height: 1.4rem;
+  padding: 1rem 22px;
+  font-size: 1.8rem;
+  color: rgb(58, 57, 57);
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  }
+.inputBox{
+    display: flex;
+    margin: 2px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1rem 22px;
+    border: 1px;
+    /* justify-content: center; */
+}
+.showItems {
+    margin-top: 3rem;
+    text-align: left;
+  }
+  .eachItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 5px;
+    align-items: ;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .delete {
+    background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+  }
+  
+  .delete:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .reply {
+    background-color: white; 
+    color:  #008CBA;
+    border: 2px solid #008CBA;
+  }
+  
+  .reply:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .cmntButton{
+    background-color: white; 
+    color:  #008CBA;
+    border: 2px solid #008CBA;
+    margin-top: 20px;
+  }
+  
+  .cmntButton:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  
